@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li {
+  margin-right: 2.5rem;
+}
+ul a {
+  text-decoration: none;
+  color: rgb(107, 187, 160);
+}
+ul a:hover {
+  color: red;
+}
+
+.text {
+  color: #24a;
+}
+
+button {
+  color: green;
+  border: 2px solid #24a;
+}
+
+/*# sourceMappingURL=style.css.map */
